@@ -1,0 +1,17 @@
+.hero .hero--info{
+    display: block;
+    flex-direction: row;
+}
+.hero .hero--info .info__title{
+    text-align: left;
+}
+.hero .hero--info .info__subtitle{
+    text-align: left;
+}
+.dishes{
+    grid-template-columns: repeat(4, minmax(100px, 200px));
+    grid-template-rows: 2fr;
+}
+.menu-grid{
+    grid-template-columns: repeat(5, minmax(100px, 250px));
+}

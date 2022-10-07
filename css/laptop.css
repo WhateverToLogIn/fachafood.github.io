@@ -1,0 +1,15 @@
+.hero{
+    grid-template-columns: repeat(2,minmax(300px, 550px));
+    padding: 20px;
+}
+.hero .hero--img-container{
+    display: block;
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+.hero .hero--img-container .hero__img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
